@@ -1,7 +1,7 @@
 import React, { useEffect, Fragment, useState } from 'react'
 import '../App.css';
 import Navegacion from './layouts/nabvar';
-import Card from 'react-bootstrap/card'
+import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import { Link, useParams } from 'react-router-dom';
 import Axios from 'axios';
