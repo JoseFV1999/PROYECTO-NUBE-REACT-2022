@@ -1,10 +1,11 @@
 import './App.css';
 import React, { Component, Fragment } from 'react';
 import Navegacion from './components/layouts/nabvar';
-import CardGroup from 'react-bootstrap/CardGroup'
+import CardGroup from 'react-bootstrap/CardGroup';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Card from 'react-bootstrap/Card';
+
 const calificacion = 5;
 
 export class App extends Component{
