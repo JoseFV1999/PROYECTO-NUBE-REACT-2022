@@ -1,0 +1,80 @@
+/* Made with love by Mutiullah Samim*/
+
+/* @import url('https://fonts.googleapis.com/css?family=Numans');*/
+
+.fondoLogin {
+    background-image: url('https://cestmonavisvoyage.com/wp-content/uploads/2017/06/hotel-almyra-avis7-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.labellogin {
+    text-align: left !important;
+    width: 100%;
+}
+
+.formlogin {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    backdrop-filter: blur(10px)
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+        transform: translateY(50%);
+    }
+
+    .container-large {
+        width: 970px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+
+    .container-large {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+
+    .container-large {
+        width: 1500px;
+    }
+}
+
+
+@media (min-width: 756px){
+    .ImagenHabitacion{
+        width: 105%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 755px ){
+    .ImagenHabitacion{
+        width: 110%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    .ImagenHabitacion{
+        width: -webkit-fill-available;
+    }
+}
+
+.container-small,
+.container-large {
+    max-width: 100%;
+}

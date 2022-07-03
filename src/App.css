@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.CardCustom {
+  background-color: #ffffffa8 !important;
+  width: '30rem' !important;
+  margin: '10px' !important;
+  padding: '20px 0px 20px 0px' !important;
+  transition: transform 0.2s ease;
+  backdrop-filter: blur(10px)
+}
+
+.CardCustom:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 550px) {
+  .TransparentCard {
+    width:'15rem'; 
+    align-self: 'center';
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 950px) {
+  .TransparentCard {
+    width:'10rem'; 
+    align-self: 'center';
+  }
+}
+
+@media only screen and (min-width: 951px){
+  .TransparentCard {
+    width:'15rem'; 
+    align-self: 'center';
+  }
+}
+
+.fondo {
+  background: linear-gradient(to right, #fff, #66a5ad, #66a5ad, #fff);
+  background-size: 2000px 1600px;
+  min-height: 100vh;
+  padding-top: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
